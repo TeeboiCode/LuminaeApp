@@ -1,9 +1,11 @@
 <template>
   <div>
     <nav>
-      <router-link to="/admin">Admin Home</router-link>
+      <router-link to="/admin/login">Admin Login</router-link>
       |
       <router-link to="/">App Home</router-link>
+      |
+      <router-link to="/preloader">preload</router-link>
     </nav>
 
     <router-view />
@@ -15,12 +17,12 @@
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 
 nav {
   padding: 0 30px;
+  text-align: center;
 
   a {
     font-weight: bold;

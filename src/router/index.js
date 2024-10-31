@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import AdminLoginView from "@/views/AdminLoginView.vue";
 import AdminHome from "@/components/Admin/AdminHome.vue";
-
+import preloader from "@/components/preloader.vue";
 const routes = [
   {
     path: "/",
@@ -9,9 +10,19 @@ const routes = [
     component: HomeView,
   },
   {
+    path: "/admin/login",
+    name: "adminLogin",
+    component: AdminLoginView,
+  },
+  {
     path: "/admin",
-    name: "admin",
+    name: "AdminHome",
     component: AdminHome,
+  },
+  {
+    path: "/preloader",
+    name: "preloader",
+    component: preloader,
   },
 ];
 

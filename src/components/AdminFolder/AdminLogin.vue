@@ -1,11 +1,11 @@
 <template>
   <div
-    class="login-container container-fluid d-flex flex-column justify-content-center align-items-center"
+    class="login-container container-fluid d-flex flex-column justify-content-center align-items-center p-0 m-0"
   >
     <!-- Brand Logo -->
     <div class="brand-logo d-flex mb-3">
       <img
-        src="../../../assets/image/Logo.png"
+        src="../../assets/image/Logo.png"
         alt="Luminae Logo"
         width="49"
         height="33"
@@ -69,8 +69,7 @@
 import axios from "axios";
 // import Swal from "sweetalert2";
 import swal from "sweetalert";
-import preloader from "../../preloader.vue";
-
+import preloader from "../preloader.vue";
 export default {
   name: "AdminLogin",
   components: {
@@ -87,7 +86,7 @@ export default {
   methods: {
     async fetchAdminUser() {
       try {
-        const response = await axios.get("http://localhost:3000/AdminUsers");
+        const response = await axios.get("http://localhost:4040/AdminUsers");
         this.users = response.data;
       } catch (error) {
         console.error(`Error from fetchAdminUser: ${error}`);
@@ -148,7 +147,7 @@ export default {
 .login-container {
   min-height: 100vh;
   /* background-color: #e2e1e1; */
-  background-image: url("../../../assets/image/admin_lg_bg.png");
+  background-image: url("../../assets/image/admin_lg_bg.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;

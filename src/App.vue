@@ -1,13 +1,5 @@
 <template>
   <div>
-    <nav>
-      <router-link to="/admin/login">Admin Login</router-link>
-      |
-      <router-link to="/">App Home</router-link>
-      |
-      <router-link to="/preloader">preload</router-link>
-    </nav>
-
     <router-view />
   </div>
 </template>
@@ -19,18 +11,7 @@
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-
-nav {
-  padding: 0 30px;
-  text-align: center;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+body {
+  height: 100vh;
 }
 </style>

@@ -7,5 +7,52 @@
       "password": "admin12345",
       "role": "admin"
     }
+  ],
+  "Categories": [
+    {
+      "id": "lumCat01",
+      "catName": "Women",
+      "img": "https://raw.githubusercontent.com/TeeboiCode/img-webP/main/women.webp"
+    },
+    {
+      "id": "lumCat02",
+      "catName": "Male",
+      "img": "https://raw.githubusercontent.com/TeeboiCode/img-webP/main/male.webp"
+    },
+    {
+      "id": "lumCat03",
+      "catName": "Mother-Child",
+      "img": "https://raw.githubusercontent.com/TeeboiCode/img-webP/main/Mother-Child.webp"
+    },
+    {
+      "id": "lumCat04",
+      "catName": "Home and Furniture",
+      "img": "https://raw.githubusercontent.com/TeeboiCode/img-webP/main/Home%20%26%20Furniture.webp"
+    },
+    {
+      "id": "lumCat05",
+      "catName": "Super Market",
+      "img": "https://raw.githubusercontent.com/TeeboiCode/img-webP/main/Super%20market.webp"
+    },
+    {
+      "id": "lumCat06",
+      "catName": "Cosmetics",
+      "img": "https://raw.githubusercontent.com/TeeboiCode/img-webP/main/Cosmetics.webp"
+    },
+    {
+      "id": "lumCat07",
+      "catName": "Shoe and Bag",
+      "img": "https://raw.githubusercontent.com/TeeboiCode/img-webP/main/Shoe%20%26%20Bag.webp"
+    },
+    {
+      "id": "lumCat08",
+      "catName": "Electronic",
+      "img": "https://raw.githubusercontent.com/TeeboiCode/img-webP/main/Electronic.webp"
+    },
+    {
+      "id": "lumCat09",
+      "catName": "Sport and Outdoor",
+      "img": "https://raw.githubusercontent.com/TeeboiCode/img-webP/main/Sport%20%26%20Outdoor.webp"
+    }
   ]
 }

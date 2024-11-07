@@ -1,13 +1,13 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid p-0 m-0">
     <AdminLogin />
   </div>
 </template>
 
 <script>
-import AdminLogin from "../components/Admin/AdminPages/AdminLogin.vue";
+import AdminLogin from "@/components/AdminFolder/AdminLogin.vue";
 export default {
-  name: "AdminLogiView",
+  name: "AdminView",
   components: {
     AdminLogin,
   },

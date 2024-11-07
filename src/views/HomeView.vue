@@ -1,6 +1,9 @@
 <template>
   <div class="home">
     <h1>App Home Page</h1>
+    <router-link to="/admin/home" class="btn btn-success" role="button">
+      AdminHome
+    </router-link>
   </div>
 </template>
 
